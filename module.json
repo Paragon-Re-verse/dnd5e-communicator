@@ -1,0 +1,59 @@
+{
+    "id": "dnd5e-communicator",
+    "name": "dnd5e-communicator",
+    "title": "D&D 5e Communicator",
+    "description": "NPC Communicator for Dungeons & Dragons 5th Edition | Коммуникатор NPC для Dungeons & Dragons 5e",
+    "version": "1.0.0",
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "ru",
+            "name": "Русский",
+            "path": "lang/ru.json"
+        },
+        {
+            "lang": "pt-BR",
+            "name": "Português (Brasil)",
+            "path": "lang/pt.json"
+        }
+    ],
+    "minimumCoreVersion": "12",
+    "compatibleCoreVersion": "13",
+    "compatibility": {
+        "minimum": 12,
+        "verified": 13
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "3.0",
+                    "verified": "4.4"
+                }
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "Paragon"
+        }
+    ],
+    "esmodules": [
+        "modules/main.js"
+    ],
+    "socket": true,
+    "styles": [
+        "styles/dnd5e-communicator.css"
+    ],
+    "url": "https://github.com/Paragon-Re-verse/dnd5e-communicator",
+    "manifest": "https://github.com/Paragon-Re-verse/dnd5e-communicator/releases/latest/download/module.json",
+    "download": "https://github.com/Paragon-Re-verse/dnd5e-communicator/releases/download/v1.0.0/module.zip",
+    "readme": "https://github.com/Paragon-Re-verse/dnd5e-communicator/blob/main/README.md",
+    "bugs": "https://github.com/Paragon-Re-verse/dnd5e-communicator/issues"
+}
